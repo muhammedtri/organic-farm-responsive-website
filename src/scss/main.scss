@@ -1,0 +1,27 @@
+//Import Bootstrap
+@use "../scss/components/variables" as *;
+@use "../scss/pages/index";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+a {
+    text-decoration: none;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.scrollTop {
+    bottom: 0;
+    right: 20px;
+    z-index: 99999;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.contact .row i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}

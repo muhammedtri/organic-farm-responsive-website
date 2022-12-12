@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="./scss/main.scss" />
+    <!-- scripts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <title>Organic Farm Responsive Website</title>
+</head>
+
+<body>
+    <!-- ScrollTop -->
+    <button class="scrollTop position-fixed bg-secondary text-white">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+    <!-- header -->
+    <header>
+        <div class="top-header d-none d-md-flex justify-content-between align-items-center py-4">
+            <div class="phone fs-2">
+                <i class="fa fa-phone-volume text-primary me-2"></i><span class="fw-bold">+212667759474</span>
+            </div>
+            <div class="brand-name display-4 fw-bold text-secondary">
+                Farm<span class="text-primary">Fresh</span>
+            </div>
+            <div class="socials">
+                <i class="fab fa-twitter text-white bg-primary rounded-circle"></i>
+                <i class="fab fa-facebook text-white bg-primary rounded-circle"></i>
+                <i class="fab fa-linkedin text-white bg-primary rounded-circle"></i>
+                <i class="fab fa-instagram text-white bg-primary rounded-circle"></i>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-md bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-md-block d-md-none" href="#">
+                <div class="brand-name display-4 fw-bold text-white">
+                    Farm<span class="text-secondary">Fresh</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse bg-primary" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about-us.html">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./products.html">PRODUCT</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu bg-primary">
+                            <li>
+                                <a class="dropdown-item active" href="./blogs.html">Blog Grid</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./blogdetails.html">Blog Detail</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./features.html">Features</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./teams.html">The Team</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="./testimonials.html">Testimonial</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact-us.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--// header //-->
+
+    <!-- main title header -->
+    <section class="mainHeader">
+        <div class="container">
+            <h1 class="display-1 fw-bold text-white mb-3">Blog Grid</h1>
+            <div class="buttons">
+                <a href="index.html" class="button button-primary me-2">Home</a>
+                <a href="./blogs.html" class="button button-secondary">Blog Grid</a>
+            </div>
+        </div>
+    </section>
+    <!--// main title header //-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <!-- blog -->
+                <section class="blogs py-5">
+                    <div class="row">
+                        <div class="col-lg-6 p-4">
+                            <div class="blog overflow-hidden">
+                                <img src="./images/blog-1.jpg" alt="" class="w-100" />
+                                <div class="info position-absolute bottom-0 start-0 text-white p-3">
+                                    <h3 class="fw-bold">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h3>
+                                    <p>Jan 01, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-4">
+                            <div class="blog overflow-hidden">
+                                <img src="./images/blog-2.jpg" alt="" class="w-100" />
+                                <div class="info position-absolute bottom-0 start-0 text-white p-3">
+                                    <h3 class="fw-bold">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h3>
+                                    <p>Jan 01, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-4">
+                            <div class="blog overflow-hidden">
+                                <img src="./images/blog-3.jpg" alt="" class="w-100" />
+                                <div class="info position-absolute bottom-0 start-0 text-white p-3">
+                                    <h3 class="fw-bold">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h3>
+                                    <p>Jan 01, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-4">
+                            <div class="blog overflow-hidden">
+                                <img src="./images/blog-3.jpg" alt="" class="w-100" />
+                                <div class="info position-absolute bottom-0 start-0 text-white p-3">
+                                    <h3 class="fw-bold">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h3>
+                                    <p>Jan 01, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-4">
+                            <div class="blog overflow-hidden">
+                                <img src="./images/blog-2.jpg" alt="" class="w-100" />
+                                <div class="info position-absolute bottom-0 start-0 text-white p-3">
+                                    <h3 class="fw-bold">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h3>
+                                    <p>Jan 01, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-4">
+                            <div class="blog overflow-hidden">
+                                <img src="./images/blog-1.jpg" alt="" class="w-100" />
+                                <div class="info position-absolute bottom-0 start-0 text-white p-3">
+                                    <h3 class="fw-bold">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                                    </h3>
+                                    <p>Jan 01, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--// blog //-->
+                <!-- Pagination -->
+                <nav aria-label="..." class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link"><i class="fa-sharp fa-solid fa-arrow-left"></i></a>
+                        </li>
+                        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                        <li class="page-item" aria-current="page">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#"><i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 py-5">
+                <aside class="py-4">
+                    <form action="" class="d-flex align-items-center mb-4">
+                        <input type="text" class="form-control rounded-0" placeholder="Keyword" style="height: 50px;">
+                        <button class="button-primary border-end-0" style="height: 50px;"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                    <div class="categories">
+                        <h3 class="text-dark fw-bold mb-5">Categories</h3>
+                        <ul class="cat-list list-unstyled bg-primary text-white p-4">
+                            <li class="mb-3 fw-bold"><i class="fa-sharp fa-solid fa-arrow-right me-2"></i>Web Design
+                            </li>
+                            <li class="mb-3 fw-bold"><i class="fa-sharp fa-solid fa-arrow-right me-2"></i>Web Devlopment
+                            </li>
+                            <li class="mb-3 fw-bold"><i class="fa-sharp fa-solid fa-arrow-right me-2"></i>Web Devlopment
+                            </li>
+                            <li class="mb-3 fw-bold"><i class="fa-sharp fa-solid fa-arrow-right me-2"></i>Keyword Research
+                            </li>
+                            <li class="mb-3 fw-bold"><i class="fa-sharp fa-solid fa-arrow-right me-2"></i>Email Marketing
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="recent-post mb-5">
+                        <h3 class="text-dark fw-bold mb-5">Recent Posts</h3>
+                        <div class="posts bg-primary p-3">
+                            <div class="post d-flex align-items-center bg-white mb-3">
+                                <img src="./images/blog-1.jpg" alt="" class="img-fluid w-25 me-2">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </div>
+                            <div class="post d-flex align-items-center bg-white mb-3">
+                                <img src="./images/blog-2.jpg" alt="" class="img-fluid w-25 me-2">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </div>
+                            <div class="post d-flex align-items-center bg-white mb-3">
+                                <img src="./images/blog-3.jpg" alt="" class="img-fluid w-25 me-2">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </div>
+                            <div class="post d-flex align-items-center bg-white mb-3">
+                                <img src="./images/blog-2.jpg" alt="" class="img-fluid w-25 me-2">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </div>
+                            <div class="post d-flex align-items-center bg-white mb-3">
+                                <img src="./images/blog-3.jpg" alt="" class="img-fluid w-25 me-2">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </div>
+                            <div class="post d-flex align-items-center bg-white mb-3">
+                                <img src="./images/blog-1.jpg" alt="" class="img-fluid w-25 me-2">
+                                <h3>Lorem ipsum dolor sit amet.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tagCloud mb-5">
+                        <h3 class="text-dark fw-bold mb-3">Tag Cloud</h3>
+                        <div class="tags d-flex flex-wrap">
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">SEO</span>
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">Design</span>
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">Marketing</span>
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">Consulting</span>
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">Writing</span>
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">Devlopment</span>
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">SEO</span>
+                            <span class="fw-bold bg-primary p-2 text-white m-1 d-block">Design</span>
+                        </div>
+                    </div>
+                    <div class="plainText">
+                        <h3 class="text-dark fw-bold mb-3">Plan Text</h3>
+                        <div class="text bg-primary p-3 text-white text-center">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem perspiciatis soluta, omnis voluptatem maiores nesciunt, quis ipsam vitae provident doloremque, sint quasi in inventore recusandae. Eum dolorem rem ex ut.</p>
+                            <button class="button-secondary">Read More</button>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="top-footer text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="info col-lg-3 py-4">
+                        <h3 class="fw-bold mb-3">Get In Touch</h3>
+                        <ul class="list-unstyled">
+                            <li><i class="fa-solid fa-location-dot me-2"></i>Fes Maroc</li>
+                            <li>
+                                <i class="fa fa-envelope me-2"></i>mellala.mohammed@gmail.com
+                            </li>
+                            <li><i class="fa fa-phone me-2"></i>+212 67 75 94 74</li>
+                            <li class="socials">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="fw-bold mb-3 py-4">Quick Links</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Home</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>About Us</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Our
+                                    Services</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Meet The
+                                    Team</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Latest Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="fw-bold mb-3 py-4">Popular Links</h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Home</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>About Us</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Our
+                                    Services</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Meet The
+                                    Team</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Latest Blog</a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="" class="text-white"><i class="fa fa-arrow-right me-2"></i>Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 text-center newsletter bg-secondary py-5 px-3">
+                        <h3 class="fw-bold mb-3">Newsletter</h3>
+                        <h6>Subscribe Our Newsletter</h6>
+                        <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+                        <form action="" class="d-flex">
+                            <input type="text" placeholder="Your Email" />
+                            <input type="submit" value="Sign Up" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer bg-dark py-4 text-center text-white fw-bold">
+            &copy; All Right Reserved. Designed By
+            <span class="text-secondary">MELLALA MOHAMMED</span>
+        </div>
+    </footer>
+    <!--// footer //-->
+    <script src="../node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
